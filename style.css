@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Encode Sans";
+}
+
+.nav-limiter {
+  height: 2px;
+  width: 1250px;
+  background-color: #ebedef;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+  width: 171px;
+  height: 36px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+header nav {
+  width: 1250px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+header nav a {
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+}
