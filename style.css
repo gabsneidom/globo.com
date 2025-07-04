@@ -6,6 +6,12 @@ body {
   font-family: "Encode Sans";
 }
 
+#container {
+  display: flex;
+  width: 1250px;
+
+}
+
 .nav-limiter {
   height: 2px;
   width: 1250px;
@@ -38,4 +44,73 @@ header nav a {
   font-size: 19px;
   font-weight: bold;
   text-decoration: none;
+}
+
+#headline {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#headline h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #C4160C;
+  line-height: 70px;
+}
+
+#headline p {
+  font-size: 18px;
+  color: #303134;
+  line-height: 34px;
+}
+
+#first-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#first-row div {
+  display: flex;
+  flex-direction: column;
+  width: 193px;
+  gap: 10px;
+
+}
+
+#first-row img {
+  border-radius: 12px;
+  width: 193px;
+  height: 110px;
+}
+
+#first-row span {
+  color: #C4170C;
+  font-size: 14px;
+}
+
+#first-row p {
+  font-size: 14px;
+  color: #2f3134;
+
+}
+
+#first-row h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.limiter {
+  background-color: #ebedef;
+  width: 100%;
+  height: 2px;
+  margin: 20px 0;
+}
+
+#leftcolumn {
+  width: 50%;
+}
+
+#rightcolumn {
+  background-color: pink;
 }
