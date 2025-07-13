@@ -4,10 +4,12 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Encode Sans";
+  padding-bottom: 50px;
 }
 
 #container {
   display: flex;
+  flex-direction: row;
   width: 1250px;
 
 }
@@ -47,6 +49,7 @@ header nav a {
 }
 
 #headline {
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -128,5 +131,50 @@ header nav a {
 }
 
 #rightcolumn {
-  background-color: pink;
+  background-color:
+}
+
+.vertical-limiter {
+  background-color: #ebedef;
+  width: 2px;
+  height: 90%;
+  margin: 20px 30px;
+}
+
+#rightcolumn {
+  display: flex;
+}
+
+#rightcolumn img {
+  margin-top: 25px;
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+}
+
+#rightcolumn span {
+  font-size: 14px;
+  color: pink;
+}
+
+#rightcolumn h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#rightcolumn p {
+  font-size: 14px;
+  color: #2f3134;
+}
+
+#first {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 45px;
+}
+
+#first div {
+  display: flex;
+  gap: 5px;
 }
