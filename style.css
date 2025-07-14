@@ -115,29 +115,27 @@ header nav a {
 
 #second-row {
   display: flex;
-
+  justify-content: space-between;
 }
 
 #second-row div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 10px;
-  width: 100%;
+  gap: 15px;
+  width: 193px;
 }
 
 #leftcolumn {
   width: 50%;
 }
 
-#rightcolumn {
-  background-color:
-}
+#rightcolumn {}
 
 .vertical-limiter {
   background-color: #ebedef;
   width: 2px;
-  height: 90%;
+  height: inherit;
   margin: 20px 30px;
 }
 
@@ -176,5 +174,6 @@ header nav a {
 
 #first div {
   display: flex;
-  gap: 5px;
+  flex-direction: column;
+  gap: 10px;
 }
