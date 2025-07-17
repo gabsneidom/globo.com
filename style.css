@@ -20,6 +20,46 @@ body {
   background-color: #ebedef;
 }
 
+#g1 {
+  color: #C4160C;
+}
+
+#o-globo {
+  color: #1E4B9B;
+}
+
+#valor {
+  color: #006766;
+}
+
+#ge {
+  color: #07AA47;
+}
+
+#cartola {
+  color: #E3662B;
+}
+
+#globoplay {
+  color: #FB0735;
+}
+
+#dropz {
+  color: #FF75BB;
+}
+
+#gshow {
+  color: #EC7D00;
+}
+
+#quem {
+  color: #323333;
+}
+
+#receitas {
+  color: #A81D83;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -127,20 +167,19 @@ header nav a {
 }
 
 #leftcolumn {
-  width: 50%;
+  width: 55%;
 }
 
-#rightcolumn {}
+#rightcolumn {
+  display: flex;
+  width: 45%;
+}
 
 .vertical-limiter {
   background-color: #ebedef;
   width: 2px;
   height: inherit;
   margin: 20px 30px;
-}
-
-#rightcolumn {
-  display: flex;
 }
 
 #rightcolumn img {
@@ -168,11 +207,23 @@ header nav a {
 #first {
   display: flex;
   flex-direction: column;
-  width: 40%;
   gap: 45px;
 }
 
 #first div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+#second {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#second div {
   display: flex;
   flex-direction: column;
   gap: 10px;
